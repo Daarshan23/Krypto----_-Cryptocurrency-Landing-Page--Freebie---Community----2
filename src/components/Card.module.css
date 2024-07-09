@@ -1,0 +1,67 @@
+.bgIcon {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  min-height: 160px;
+}
+.howToTrade {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.euTellusQuam,
+.ornareRisus {
+  margin: 0;
+}
+.euTellusQuamContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-300);
+}
+.learnMore {
+  position: relative;
+  line-height: 150%;
+  color: var(--red);
+  display: inline-block;
+  min-width: 96px;
+  white-space: nowrap;
+}
+.card1,
+.div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.div {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 227px;
+}
+.card1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 750px) {
+  .bgIcon {
+    flex: 1;
+  }
+  .card1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howToTrade {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,49 @@
+.dayPlaceholder,
+.days1 {
+  position: relative;
+  display: inline-block;
+}
+.dayPlaceholder {
+  font-weight: 500;
+  min-width: 39px;
+}
+.days1 {
+  text-transform: uppercase;
+  min-width: 33px;
+}
+.daysLabelContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-smi);
+  color: var(--white);
+}
+.day,
+.days,
+.daysLabelContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.day {
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.days {
+  flex-direction: row;
+  padding: 0;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--red);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1050px) {
+  .dayPlaceholder {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dayPlaceholder {
+    font-size: var(--font-size-lg);
+  }
+}

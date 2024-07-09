@@ -1,0 +1,62 @@
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--red);
+}
+.stepContentHolders {
+  position: absolute;
+  top: 28.57%;
+  left: 28.57%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 1;
+}
+.stepBackgrounds {
+  height: 42px;
+  width: 42px;
+  position: relative;
+}
+.createAnAccount {
+  position: relative;
+  font-weight: 500;
+}
+.step1,
+.stepContainers,
+.stepTitlesContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepTitlesContainer {
+  flex-direction: column;
+  padding: var(--padding-2xs-5) 0 0;
+  font-size: var(--font-size-lg);
+  color: var(--red);
+}
+.step1,
+.stepContainers {
+  flex-direction: row;
+}
+.stepContainers {
+  flex: 1;
+  box-shadow: 0 0 4px rgba(239, 68, 59, 0.4);
+  border-radius: var(--br-61xl);
+  background-color: var(--purple);
+  padding: var(--padding-xs);
+  gap: var(--gap-base);
+}
+.step1 {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--purple);
+  font-family: var(--font-rubik);
+}

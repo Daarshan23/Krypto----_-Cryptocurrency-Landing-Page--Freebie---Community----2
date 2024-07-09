@@ -1,0 +1,414 @@
+.bitcoin1Icon {
+  width: 95px;
+  height: 95px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.bitcoinLogoContainer {
+  height: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nextGenerationCrypto {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 3;
+}
+.cryptoMarketStarts {
+  width: 540px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.cryptoMarketStartsInWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.tradingDescriptionContainer,
+.tradingDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.tradingDescriptionWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.tradingDescriptionContainer {
+  width: 760px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) var(--padding-mini) 0;
+  box-sizing: border-box;
+}
+.litecoin2Icon {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  object-fit: contain;
+  z-index: 3;
+}
+.enrollHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-gray-100);
+}
+.hoursSpacing {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 4px;
+  z-index: 1;
+}
+.hoursPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.minutesSpacing {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 4px;
+  z-index: 1;
+}
+.minutesPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.secondsSpacing {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 4px;
+  z-index: 1;
+}
+.secondsPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.counter,
+.miniCounter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.miniCounter {
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-20xl) var(--padding-4xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 3;
+}
+.counter {
+  width: 540px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.button1,
+.button2 {
+  height: 55px;
+  flex: 1;
+  min-width: 114px;
+  z-index: 3;
+}
+.button2 {
+  min-width: 111px;
+}
+.buttonsContainer,
+.downloadButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.buttonsContainer {
+  width: 377px;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.downloadButtons {
+  width: 539px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.weAccept {
+  width: 540px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.bitcoin,
+.bitcoin1,
+.weAccept {
+  position: relative;
+  z-index: 3;
+}
+.bitcoin {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.bitcoin1 {
+  display: inline-block;
+  min-width: 66px;
+}
+.bitcoinLogoContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.litecoin,
+.litecoinIcon {
+  position: relative;
+  z-index: 3;
+}
+.litecoinIcon {
+  height: 24px;
+  width: 24.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.litecoin {
+  display: inline-block;
+  min-width: 75px;
+}
+.litecoinParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.chainlink,
+.chainlink1 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.chainlink1 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24.2px;
+  overflow: hidden;
+  min-height: 24px;
+}
+.chainlink {
+  display: inline-block;
+  min-width: 86px;
+}
+.chainlink1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-1);
+}
+.siacoin,
+.siacoins {
+  position: relative;
+  z-index: 3;
+}
+.siacoins {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.siacoin {
+  display: inline-block;
+  min-width: 68px;
+}
+.siacoinsParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.bitcoinLogoContainerParent,
+.logosWrapper,
+.siacoinsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bitcoinLogoContainerParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.logosWrapper {
+  width: 529.5px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.monero1Icon {
+  height: 63px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.paymentLogosContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.paymentLogos,
+.paymentMethods {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.paymentLogos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.paymentMethods {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+}
+.counterContainer,
+.counterWrapper,
+.paymentMethods {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.counterWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.counterContainer {
+  width: 912px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+}
+.enrollContainer {
+  width: 1185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.enrollContainerWrapper {
+  width: 1365px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1200px) {
+  .enrollHeader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nextGenerationCrypto {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .bitcoinLogoContainerParent {
+    flex-wrap: wrap;
+  }
+  .paymentLogosContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nextGenerationCrypto {
+    font-size: var(--font-size-5xl);
+  }
+  .bitcoin1,
+  .chainlink,
+  .litecoin,
+  .siacoin {
+    font-size: var(--font-size-base);
+  }
+  .counterWrapper {
+    gap: var(--gap-xl);
+  }
+}

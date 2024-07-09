@@ -1,0 +1,126 @@
+.bg,
+.bgIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+}
+.bgIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg {
+  background-color: var(--color-tomato-200);
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.image {
+  align-self: stretch;
+  height: 350px;
+  position: relative;
+}
+.bg1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  background-color: var(--white);
+}
+.bitcoin,
+.tinciduntIdNibh {
+  position: relative;
+  z-index: 1;
+}
+.bitcoin {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 83px;
+}
+.tinciduntIdNibh {
+  align-self: stretch;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--color-gray-200);
+}
+.cryptoInfo,
+.sliderDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.cryptoInfo {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.sliderDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs) 0 var(--padding-8xs);
+}
+.button {
+  width: 142px;
+  height: 55px;
+  z-index: 1;
+}
+.k {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 26px;
+  left: 24px;
+  font-size: var(--font-size-17xl);
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--red);
+  min-width: 126px;
+  z-index: 2;
+}
+.card1,
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-5xl) var(--padding-lgi) var(--padding-xl);
+  position: relative;
+  gap: var(--gap-61xl);
+}
+.card1 {
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--purple);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1050px) {
+  .k {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bitcoin {
+    font-size: var(--font-size-lgi);
+  }
+  .k {
+    font-size: var(--font-size-3xl);
+  }
+  .component {
+    gap: var(--gap-21xl);
+  }
+}

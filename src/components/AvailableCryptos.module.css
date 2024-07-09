@@ -1,0 +1,196 @@
+.bg {
+  width: 1440px;
+  height: 1100px;
+  position: relative;
+  background-color: var(--purple);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.monero1Icon {
+  width: 63px;
+  height: 63px;
+  position: relative;
+  object-fit: cover;
+  z-index: 5;
+}
+.moneroAvailable {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xl);
+}
+.availableCreyptos,
+.tinciduntIdNibh {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.availableCreyptos {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tinciduntIdNibh {
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+}
+.availableCryptosDescription {
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.availableCryptosContent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.availableCryptosContainer {
+  width: 1175px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.leftIcon {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  z-index: 1;
+}
+.sliderControls,
+.sliders {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sliderControls {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-241xl) 0 0;
+}
+.sliders {
+  width: 1111px;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-11xl-5);
+  max-width: calc(100% - 239px);
+  grid-template-columns: repeat(3, minmax(262px, 1fr));
+  z-index: 1;
+}
+.rightIcon {
+  width: 65px;
+  height: 65px;
+  position: relative;
+  z-index: 1;
+}
+.cryptosSlider,
+.sliderControls1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sliderControls1 {
+  flex-direction: column;
+  padding: var(--padding-241xl) 0 0;
+}
+.cryptosSlider {
+  flex-direction: row;
+  gap: var(--gap-35xl-5);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--purple);
+}
+.litecoin3Icon {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -80px;
+  left: 46px;
+  object-fit: contain;
+  z-index: 6;
+}
+.availableCryptos {
+  background-color: var(--purple);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-25xl) var(--padding-136xl)
+    var(--padding-27xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1200px) {
+  .availableCryptosContent {
+    flex-wrap: wrap;
+  }
+  .availableCryptos {
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .availableCreyptos {
+    font-size: var(--font-size-32xl);
+  }
+  .sliders {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(262px, 455px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .sliderControls {
+    display: none;
+  }
+  .sliders {
+    gap: var(--gap-mini);
+    max-width: 100%;
+    grid-template-columns: minmax(262px, 1fr);
+  }
+  .sliderControls1 {
+    display: none;
+  }
+  .cryptosSlider {
+    gap: var(--gap-8xl);
+  }
+  .availableCryptos {
+    gap: var(--gap-21xl);
+    padding: var(--padding-19xl) var(--padding-3xl) var(--padding-47xl)
+      var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .availableCreyptos {
+    font-size: var(--font-size-19xl);
+  }
+  .tinciduntIdNibh {
+    font-size: var(--font-size-lgi);
+  }
+  .availableCryptos {
+    gap: var(--gap-xl);
+  }
+}

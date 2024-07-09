@@ -1,0 +1,139 @@
+.bg,
+.krypto {
+  position: relative;
+}
+.bg {
+  height: 100px;
+  width: 1440px;
+  background-color: var(--purple);
+  display: none;
+  max-width: 100%;
+}
+.krypto {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 83px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.navbarCards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.cryptos,
+.howItWorks {
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.howItWorks {
+  flex: 1;
+  min-width: 109px;
+  white-space: nowrap;
+}
+.cryptos {
+  min-width: 72px;
+}
+.features {
+  min-width: 80px;
+}
+.features,
+.testimonial,
+.university {
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.testimonial {
+  flex: 1;
+  min-width: 102px;
+}
+.university {
+  min-width: 92px;
+}
+.linksContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.navbar,
+.navbarLinks,
+.signUpButton {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.navbarLinks {
+  width: 575px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.navbar,
+.signUpButton {
+  flex-direction: row;
+}
+.signUpButton {
+  height: 34px;
+  width: 72px;
+  border-radius: var(--br-xl);
+  background-color: transparent;
+  border: 2px solid var(--red);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  z-index: 1;
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--purple);
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-15xl);
+  gap: var(--gap-171xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--red);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    gap: var(--gap-76xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .linksContainer {
+    display: none;
+  }
+  .navbarLinks {
+    width: 0;
+  }
+  .navbar {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    gap: var(--gap-5xl);
+  }
+}

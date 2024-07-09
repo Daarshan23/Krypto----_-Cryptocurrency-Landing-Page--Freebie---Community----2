@@ -1,0 +1,144 @@
+.bg {
+  width: 1440px;
+  height: 850px;
+  position: relative;
+  background-color: var(--purple);
+  display: none;
+  max-width: 100%;
+}
+.attractiveFeatures,
+.windafulMakesPlaying {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.attractiveFeatures {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.windafulMakesPlaying {
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+}
+.featuresContent,
+.featuresHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.featuresHeader {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.featuresContent {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  min-width: 598px;
+  max-width: 100%;
+}
+.bitcoin1Icon {
+  height: 95px;
+  width: 95px;
+  position: relative;
+  object-fit: contain;
+  z-index: 6;
+}
+.featuresContainer {
+  width: 1092px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-58xl);
+  max-width: 100%;
+}
+.features,
+.featuresList,
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.items {
+  width: 1110px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px 28px;
+  min-height: 418px;
+  z-index: 1;
+}
+.features,
+.featuresList {
+  justify-content: flex-end;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+}
+.features {
+  background-color: var(--purple);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-70xl) var(--padding-69xl) var(--padding-120xl);
+  gap: var(--gap-52xl);
+  z-index: 5;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1200px) {
+  .featuresContainer {
+    gap: var(--gap-19xl);
+  }
+  .featuresList {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .attractiveFeatures {
+    font-size: var(--font-size-32xl);
+  }
+  .featuresContent {
+    min-width: 100%;
+  }
+  .features {
+    padding-top: var(--padding-39xl);
+    padding-bottom: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .featuresContainer {
+    gap: var(--gap-lgi);
+  }
+  .features {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .attractiveFeatures {
+    font-size: var(--font-size-19xl);
+  }
+  .windafulMakesPlaying {
+    font-size: var(--font-size-lgi);
+  }
+  .features {
+    gap: var(--gap-lg);
+    padding: var(--padding-19xl) var(--padding-xl) var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}

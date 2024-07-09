@@ -1,0 +1,167 @@
+.bg {
+  width: 1440px;
+  height: 800px;
+  position: relative;
+  background-color: var(--purple);
+  display: none;
+  max-width: 100%;
+}
+.cryptoMarketAnalysis,
+.tinciduntIdNibh {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.cryptoMarketAnalysis {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tinciduntIdNibh {
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+}
+.cryptoMarketAnalysisParent,
+.universityInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cryptoMarketAnalysisParent {
+  width: 920px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.universityInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.navbarCardsRight,
+.navbarCardsRight1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 351px;
+  max-width: 100%;
+}
+.cards,
+.cardsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cards {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  z-index: 1;
+}
+.cardsWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.enroll {
+  height: 55px;
+  width: 280px;
+  z-index: 1;
+}
+.monero1Icon {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+  z-index: 10;
+}
+.monero1Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+}
+.enrollParent,
+.university {
+  display: flex;
+  max-width: 100%;
+}
+.enrollParent {
+  width: 740px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.university {
+  align-self: stretch;
+  background-color: var(--purple);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-101xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  z-index: 8;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 1200px) {
+  .cardsWrapper {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cryptoMarketAnalysis {
+    font-size: var(--font-size-32xl);
+  }
+  .university {
+    padding-top: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbarCardsRight,
+  .navbarCardsRight1 {
+    min-width: 100%;
+  }
+  .enrollParent {
+    flex-wrap: wrap;
+  }
+  .university {
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cryptoMarketAnalysis {
+    font-size: var(--font-size-19xl);
+  }
+  .tinciduntIdNibh {
+    font-size: var(--font-size-lgi);
+  }
+  .university {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-19xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

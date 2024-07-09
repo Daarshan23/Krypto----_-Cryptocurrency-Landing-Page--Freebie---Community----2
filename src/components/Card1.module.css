@@ -1,0 +1,123 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--purple);
+  border: 2px solid var(--red);
+  box-sizing: border-box;
+}
+.icoutlineFormatQuoteIcon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.testimonialContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.tinciduntIdNibh {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.profilePicturesIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profileDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.cameronWilliamson {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.fxTrader {
+  position: relative;
+  display: inline-block;
+  min-width: 71px;
+}
+.cameronWilliamsonParent,
+.fxTraderWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fxTraderWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-58xl);
+  font-size: var(--font-size-base);
+  color: var(--red);
+}
+.cameronWilliamsonParent {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.profile {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.card1,
+.profile,
+.testimonialProfiles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialProfiles {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl) 0 var(--padding-4xl);
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.card1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-48xl) var(--padding-17xl) var(--padding-48xl)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 262px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 450px) {
+  .cameronWilliamson {
+    font-size: var(--font-size-base);
+  }
+  .card1 {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
